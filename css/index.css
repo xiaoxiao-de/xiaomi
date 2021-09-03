@@ -34,6 +34,9 @@ li {
   margin: 0 auto;
   height: 100%;
 }
+.npsp {
+  padding-bottom: 20px;
+}
 nav {
   background-color: black;
   height: 40px;
@@ -622,4 +625,95 @@ aside .down_xm span {
   font-size: 0;
   border: 10px solid transparent;
   border-left-color: white;
+}
+footer {
+  background-color: #ffffff;
+  margin-top: 15px;
+}
+footer .footer_service {
+  height: 80px;
+}
+footer .footer_service ul {
+  height: 100%;
+  width: 100%;
+}
+footer .footer_service ul li {
+  width: 243.74px;
+  height: 80px;
+  float: left;
+  padding-left: 10px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 80px;
+}
+footer .footer_service ul li a {
+  color: #333333;
+}
+footer .footer_service ul li a i {
+  margin-right: 10px;
+  font-size: 25px;
+  vertical-align: bottom;
+}
+footer .footer_service ul li a:hover {
+  color: #ff6700;
+}
+footer .footer_service ul li::after {
+  content: '';
+  border-right: 1px solid #B0B0B0;
+  padding-right: 40px;
+}
+footer .footer_service ul li:nth-child(5)::after {
+  content: '';
+  border-right: 0;
+}
+footer .footer_links {
+  height: 249.8px;
+  margin-top: 10px;
+}
+footer .footer_links ol {
+  float: left;
+  margin-right: 40px;
+}
+footer .footer_links ol li a {
+  padding-bottom: 5px;
+  font-size: 12px;
+  color: #B0B0B0;
+}
+footer .footer_links ol li a:hover {
+  color: #ff6700;
+}
+footer .footer_links .col_cantact {
+  padding-top: 20px;
+  padding-left: 1000px;
+  height: 249.8px;
+}
+footer .footer_links .col_cantact p {
+  color: #ff6700;
+}
+footer .footer_links .col_cantact span {
+  display: block;
+  color: #B0B0B0;
+  font-size: 12px;
+}
+footer .footer_links .col_cantact .preson {
+  display: block;
+  width: 120px;
+  height: 30px;
+  border: 1px solid #ff6700;
+  font-size: 14px;
+  text-align: center;
+  color: #ff6700;
+  line-height: 30px;
+}
+footer .footer_links .col_cantact .follow {
+  font-size: 14px;
+}
+footer .set_info {
+  margin-top: 20px;
+  height: 263.2px;
+}
+footer .set_info img {
+  padding-left: 20px;
+  width: 56px;
+  height: 56px;
 }
