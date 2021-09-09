@@ -125,3 +125,13 @@ let timer = setInterval(() => {
     // 手动调用点击事件
     zuo.click();
 }, 3000);
+// ajax请求
+const search = document.querySelector("#search");
+console.log(search);
+search.addEventListener('keyup',()=>{
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET','http://www.baidu.com')  
+})
+
+
+

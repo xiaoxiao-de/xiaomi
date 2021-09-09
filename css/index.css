@@ -709,11 +709,30 @@ footer .footer_links .col_cantact .follow {
   font-size: 14px;
 }
 footer .set_info {
-  margin-top: 20px;
+  display: flex;
+  margin-top: 10px;
   height: 263.2px;
 }
-footer .set_info img {
-  padding-left: 20px;
+footer .set_info .footer_logo {
+  height: 100%;
+  width: 80px;
+}
+footer .set_info .footer_logo img {
   width: 56px;
   height: 56px;
+}
+footer .set_info .statement {
+  flex: 1;
+  height: 100%;
+}
+footer .set_info .statement p a {
+  font-size: 12px;
+  color: #5f5750;
+}
+footer .set_info .statement p a:hover {
+  color: #ff6700;
+}
+footer .set_info .statement p a img {
+  width: 74px;
+  height: 28px;
 }
